@@ -40,3 +40,4 @@
         ignore_sm:
           # We ignore this info event or the pipeline will always fail. 
           - APP_EPG_NOT_DEPLOYED
+          - TENANT_HAS_NO_APP_PROFILE 
