@@ -3,13 +3,13 @@
 
 
 - name: Add a BD with Subnet to tenant
-  hosts: 'dmzapic8'
+  hosts: 'apic01'
   collections: 
     - cisco.aci
   gather_facts: no
   connection: local
   vars:
-    host:       "dmzapic8"
+    host:       "apic01"
     tenant:      "sm-Jenkins-Ansible"
     vrf_name:    "SMVRF1"
     bd:          "newBD3"

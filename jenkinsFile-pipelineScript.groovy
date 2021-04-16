@@ -13,7 +13,7 @@ pipeline {
      steps {
        dir('dev'){
          ansiColor('xterm'){
-           git branch: 'master', url: 'https://github.com/soumukhe/jenkins-NAE-cicd-.git'
+           git branch: 'master', url: 'https://github.com/mihaime/jenkins-NAE-cicd-.git'
          }
        }
        dir('dev/ACI'){
