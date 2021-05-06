@@ -13,6 +13,7 @@
     tenant:      "sm-Jenkins-Ansible"
     vrf_name:    "SMVRF1"
     bd:          "newBD6"
+    bd2:         "errorBD"
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
     certificate_name: "ansible" 
@@ -92,7 +93,7 @@
         certificate_name: "{{ certificate_name }}"
         validate_certs: no
         tenant: "{{ tenant }}"
-        bd: "{{ bd }}"
+        bd: "{{ bd2 }}"
         gateway: "{{ gateway }}"
         mask: "24"
         state: present
