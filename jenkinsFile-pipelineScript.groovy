@@ -50,7 +50,7 @@ pipeline {
                  ansiblePlaybook(
                      playbook: './nae_pcv.yaml',
                      inventory: './hosts',
-                     extras: '-vvv',
+                     extras: '',
                      colorized: true)
                     }
 
