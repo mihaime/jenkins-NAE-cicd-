@@ -94,7 +94,7 @@
         validate_certs: no
         tenant: "{{ tenant }}"
         bd: "errorBD"
-        gateway: "{{ gateway }}"
+        gateway: "10.20.20.1"
         mask: "24"
         state: present
         use_proxy: no
