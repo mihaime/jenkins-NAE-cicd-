@@ -12,11 +12,11 @@
     host:       "apic01"
     tenant:      "sm-Jenkins-Ansible"
     vrf_name:    "SMVRF1"
-    bd:          "BDERROR1"
+    bd:          "BDERROR2"
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
     certificate_name: "ansible" 
-    gateway: "20.10.10.1"
+    gateway: "10.10.10.1"
 
 
 
